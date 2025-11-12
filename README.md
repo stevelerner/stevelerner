@@ -19,8 +19,6 @@
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 
 </div>
 
@@ -87,7 +85,7 @@ These workshops help teams transition to modern observability practices with dis
 - **LinkedIn**: [linkedin.com/in/stevelerner](https://www.linkedin.com/in/stevelerner/)
 - **GitHub**: [@stevelerner](https://github.com/stevelerner)
 
-**Ask me about:** OpenTelemetry, observability strategies, Kubernetes patterns, Python automation, Linux systems, SDR projects, or Raspberry Pi applications.
+**Ask me about:** OpenTelemetry, observability strategies, Kubernetes patterns, Python automation, or Linux systems.
 
 ---
 
