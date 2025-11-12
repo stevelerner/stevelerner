@@ -25,7 +25,7 @@
 ## Featured Projects
 
 ### [agentic-ai](https://github.com/stevelerner/agentic-ai)
-Multi-agent AI system featuring specialized agents for research, analysis, planning, coding, and writing. Built with Python, the framework includes memory management (short-term and long-term), orchestration capabilities, and various tools for code execution, web search, and data processing. Includes both simple and advanced implementations with Docker support and REST API.
+Simple, practical demonstration of core agentic AI principles featuring the ReAct pattern (Reason → Act → Observe). Showcases tool use, function calling, and LLM integration with enhanced observability including token metrics and conversation history. Built with Python and local Ollama LLM. Designed for macOS with Docker Desktop - perfect for learning agentic AI fundamentals with a clean web UI.
 
 ### [nextjs-weather-chat](https://github.com/stevelerner/nextjs-weather-chat)
 Interactive Next.js 15 demonstration comparing rendering strategies (SSG, SSR, ISR, Edge) with real-time weather data and OpenAI-powered chatbot. Showcases API design, performance optimization, and modern deployment patterns on Vercel's edge network.
@@ -65,12 +65,6 @@ These workshops help teams transition to modern observability practices with dis
 - API design and gateway patterns
 - System performance analysis and optimization
 - Cloud-native application development
-
-**Hardware & Electronics:**
-- Software-defined radio (SDR) and RF projects
-- Raspberry Pi automation and IoT applications
-- Arduino sensors and embedded systems
-- Signal processing and radio communication
 
 ## GitHub Stats
 
