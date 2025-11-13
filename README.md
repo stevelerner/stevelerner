@@ -27,6 +27,9 @@
 ### [agentic-ai](https://github.com/stevelerner/agentic-ai)
 Simple, practical demonstration of core agentic AI principles featuring the ReAct pattern (Reason → Act → Observe). Showcases tool use, function calling, and LLM integration with enhanced observability including token metrics and conversation history. Built with Python and local Ollama LLM. Designed for macOS with Docker Desktop - perfect for learning agentic AI fundamentals with a clean web UI.
 
+### [kafka](https://github.com/stevelerner/kafka)
+Comprehensive Apache Kafka streaming platform demonstration featuring multiple producers, consumers, topics, and a real-time web UI for visualizing message flows. Showcases event-driven architecture, log aggregation, metrics collection, consumer groups, partitioning, and message delivery guarantees. Built with Python, Docker Compose, and Kafka 3.6. Includes interactive demos and comprehensive documentation covering Kafka fundamentals, stream processing patterns, and production considerations. Perfect for learning distributed streaming and event-driven systems.
+
 ### [nextjs-weather-chat for Vercel](https://github.com/stevelerner/nextjs-weather-chat)
 Interactive Next.js 15 demonstration comparing rendering strategies (SSG, SSR, ISR, Edge) with real-time weather data and OpenAI-powered chatbot. Showcases API design, performance optimization, and modern deployment patterns on Vercel's edge network.
 
