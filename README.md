@@ -1,5 +1,16 @@
 # Steve Lerner's GitHub: Cloud, AI, Observability, OpenAPI, DevOps, Network Engineering, Infra-As-Code
 
+A collection of hands-on demonstrations and training materials focused on modern cloud-native technologies, distributed systems, and AI/ML engineering.
+
+**Quick Overview:**
+- [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training): Agentic AI with ReAct patterns, tool calling, and model training fundamentals
+- [agentic-ai](https://github.com/stevelerner/agentic-ai): Simple, practical agentic AI demonstration with web UI and observability
+- [kafka](https://github.com/stevelerner/kafka): Distributed streaming platform with producers, consumers, and real-time web UI
+- [openapi](https://github.com/stevelerner/openapi): Microservices platform with API Gateway and interactive OpenAPI documentation
+- [terraform](https://github.com/stevelerner/terraform): Infrastructure as Code demonstration with Docker orchestration
+- [networkdemo](https://github.com/stevelerner/networkdemo): Advanced Docker networking with VLANs, routing, DNS, and interactive visualizations
+- [otelworkshop-original](https://github.com/stevelerner/otelworkshop-original): Comprehensive OpenTelemetry workshops and observability training (workshop author)
+
 <div align="center">
   
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stevelerner/)
