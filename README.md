@@ -117,13 +117,3 @@ These workshops help teams transition to modern observability practices with dis
 
 - **LinkedIn**: [linkedin.com/in/stevelerner](https://www.linkedin.com/in/stevelerner/)
 - **GitHub**: [@stevelerner](https://github.com/stevelerner)
-
-**Ask me about:** OpenTelemetry, observability strategies, Kubernetes patterns, Python automation, or Linux systems.
-
----
-
-<div align="center">
-  
-*"Observability is not just about collecting data; it's about understanding your systems deeply enough to ask questions you haven't thought of yet."*
-
-</div>
