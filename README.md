@@ -24,64 +24,94 @@
 
 ## Featured Projects
 
+### [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training)
+- Minimal demonstration of agentic AI and model training using Alice in Wonderland
+- Features ReAct pattern (Reason → Act → Observe), tool calling, and model switching
+- Comprehensive model comparison with standard NLP evaluation metrics (ROUGE, BLEU, Jaccard)
+- Token consumption tracking and character-specific fine-tuning
+- Trains custom "mad-hatter" model via Ollama Modelfile
+- Built with Python, Flask, Docker, and Ollama
+- Perfect for learning both agentic AI patterns and model training fundamentals
+
 ### [agentic-ai](https://github.com/stevelerner/agentic-ai)
-Simple, practical demonstration of core agentic AI principles featuring the ReAct pattern (Reason → Act → Observe). Showcases tool use, function calling, and LLM integration with enhanced observability including token metrics and conversation history. Built with Python and local Ollama LLM. Designed for macOS with Docker Desktop - perfect for learning agentic AI fundamentals with a clean web UI.
+- Simple, practical demonstration of core agentic AI principles
+- Features ReAct pattern (Reason → Act → Observe)
+- Showcases tool use, function calling, and LLM integration
+- Enhanced observability including token metrics and conversation history
+- Built with Python and local Ollama LLM
+- Designed for macOS with Docker Desktop
+- Perfect for learning agentic AI fundamentals with a clean web UI
 
 ### [kafka](https://github.com/stevelerner/kafka)
-Comprehensive Apache Kafka streaming platform demonstration featuring multiple producers, consumers, topics, and a real-time web UI for visualizing message flows. Showcases event-driven architecture, log aggregation, metrics collection, consumer groups, partitioning, and message delivery guarantees. Built with Python, Docker Compose, and Kafka 3.6. Includes interactive demos and comprehensive documentation covering Kafka fundamentals, stream processing patterns, and production considerations. Perfect for learning distributed streaming and event-driven systems.
+- Comprehensive Apache Kafka streaming platform demonstration
+- Multiple producers, consumers, topics, and real-time web UI
+- Event-driven architecture, log aggregation, metrics collection
+- Consumer groups, partitioning, and message delivery guarantees
+- Built with Python, Docker Compose, and Kafka 3.6
+- Interactive demos and comprehensive documentation
+- Perfect for learning distributed streaming and event-driven systems
 
 ### [nextjs-weather-chat for Vercel](https://github.com/stevelerner/nextjs-weather-chat)
-Interactive Next.js 15 demonstration comparing rendering strategies (SSG, SSR, ISR, Edge) with real-time weather data and OpenAI-powered chatbot. Showcases API design, performance optimization, and modern deployment patterns on Vercel's edge network.
+- Interactive Next.js 15 demonstration comparing rendering strategies (SSG, SSR, ISR, Edge)
+- Real-time weather data and OpenAI-powered chatbot
+- API design, performance optimization, and modern deployment patterns
+- Deployed on Vercel's edge network
 
 ### [terraform](https://github.com/stevelerner/terraform)
-Infrastructure as Code demonstration using Terraform to provision Docker containers locally. Features a complete web application stack with Flask, PostgreSQL, and Nginx reverse proxy. Showcases declarative configuration, dependency management, state management, and idempotent infrastructure deployment. Includes automated deployment scripts and comprehensive Makefile for common tasks. Perfect for learning Terraform fundamentals with practical, real-world examples.
+- Infrastructure as Code demonstration using Terraform
+- Provisions Docker containers locally
+- Complete web application stack with Flask, PostgreSQL, and Nginx reverse proxy
+- Declarative configuration, dependency management, state management
+- Idempotent infrastructure deployment
+- Automated deployment scripts and comprehensive Makefile
+- Perfect for learning Terraform fundamentals with practical examples
 
 ### [openapi](https://github.com/stevelerner/openapi)
-Comprehensive OpenAPI demonstration platform featuring multiple microservices, API Gateway, and interactive documentation. Built with FastAPI and Docker, showcasing RESTful API design, OpenAPI 3.0 specifications, service discovery, and modern microservices architecture. Includes Products, Users, and Orders APIs with unified API catalog, health monitoring, and a modern web UI for browsing and testing endpoints. Perfect for learning API development best practices and microservices patterns.
+- Comprehensive OpenAPI demonstration platform
+- Multiple microservices, API Gateway, and interactive documentation
+- Built with FastAPI and Docker
+- RESTful API design, OpenAPI 3.0 specifications, service discovery
+- Products, Users, and Orders APIs with unified API catalog
+- Health monitoring and modern web UI for browsing and testing endpoints
+- Perfect for learning API development best practices and microservices patterns
 
 ### [networkdemo](https://github.com/stevelerner/networkdemo)
-Advanced Docker networking demonstration featuring multi-VLAN routing, DNS, DHCP, and HTTPS. Interactive visualization webapp for exploring network topologies, inter-VLAN routing, NAT, and firewall configurations. Built with Docker Compose, Python Flask, and comprehensive automation via Makefile.
+- Advanced Docker networking demonstration
+- Multi-VLAN routing, DNS, DHCP, and HTTPS
+- Interactive visualization webapp for exploring network topologies
+- Inter-VLAN routing, NAT, and firewall configurations
+- Built with Docker Compose, Python Flask, and comprehensive automation via Makefile
 
 ### [devops-technique](https://github.com/stevelerner/devops-technique)
-Collection of battle-tested DevOps techniques, scripts, and best practices. Practical solutions to real-world infrastructure and operations challenges.
+- Collection of battle-tested DevOps techniques, scripts, and best practices
+- Practical solutions to real-world infrastructure and operations challenges
 
 ### [opentelemetry](https://github.com/stevelerner/opentelemetry)
-Distributed tracing and observability implementations using OpenTelemetry. Examples, patterns, and learning resources for instrumenting applications and infrastructure.
-
-### [otelworkshop-original](https://github.com/stevelerner/otelworkshop-original)
-**Author of OpenTelemetry workshops** originally created at SignalFx. Comprehensive hands-on labs covering instrumentation, exporters, collectors, and observability best practices.
-
-### [cxworkshops](https://github.com/stevelerner/cxworkshops)
-**Author of Coralogix observability workshops**. Training materials and hands-on exercises for implementing end-to-end observability solutions, including logging, metrics, and distributed tracing integrations.
+- Distributed tracing and observability implementations using OpenTelemetry
+- Examples, patterns, and learning resources
+- Instrumenting applications and infrastructure
 
 ### [mobiledemoapps](https://github.com/stevelerner/mobiledemoapps)
-Mobile application demos built with Kotlin. Exploring mobile development patterns and integrations.
+- Mobile application demos built with Kotlin
+- Exploring mobile development patterns and integrations
 
 ## Workshop & Training
 
 I've authored comprehensive observability training workshops used by engineering teams:
 
-- **OpenTelemetry Workshop** - Hands-on instrumentation labs covering auto-instrumentation, manual tracing, metrics, and collector configuration
-- **Coralogix Observability Workshop** - End-to-end observability including log aggregation, metric collection, APM, and alert configuration
+### [otelworkshop-original](https://github.com/stevelerner/otelworkshop-original)
+- **Author of OpenTelemetry workshops** originally created at SignalFx
+- Comprehensive hands-on labs covering instrumentation, exporters, collectors
+- Auto-instrumentation, manual tracing, metrics, and collector configuration
+- Observability best practices
+
+### [cxworkshops](https://github.com/stevelerner/cxworkshops)
+- **Author of Coralogix observability workshops**
+- Training materials and hands-on exercises
+- End-to-end observability including log aggregation, metric collection, APM, and alert configuration
+- Distributed tracing integrations
 
 These workshops help teams transition to modern observability practices with distributed tracing and telemetry standards.
-
-## Areas of Interest
-
-**Software & Infrastructure:**
-- Distributed systems and microservices architecture
-- Container orchestration and service mesh technologies
-- API design and gateway patterns
-- System performance analysis and optimization
-- Cloud-native application development
-
-## GitHub Stats
-
-<div align="center">
-  
-![Steve's GitHub stats](https://github-readme-stats.vercel.app/api?username=stevelerner&show_icons=true&theme=tokyonight&hide_border=true)
-
-</div>
 
 ## Connect
 
