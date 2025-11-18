@@ -5,6 +5,7 @@ A collection of hands-on demonstrations and training materials focused on modern
 **Quick Overview:**
 - [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training): Agentic AI with ReAct patterns, tool calling, and model training fundamentals
 - [agentic-ai](https://github.com/stevelerner/agentic-ai): Simple, practical agentic AI demonstration with web UI and observability
+- [tinyotel](https://github.com/stevelerner/tinyotel): Minimal OpenTelemetry demo with metrics, traces, and structured logs
 - [kafka](https://github.com/stevelerner/kafka): Distributed streaming platform with producers, consumers, and real-time web UI
 - [openapi](https://github.com/stevelerner/openapi): Microservices platform with API Gateway and interactive OpenAPI documentation
 - [terraform](https://github.com/stevelerner/terraform): Infrastructure as Code demonstration with Docker orchestration
@@ -52,6 +53,15 @@ A collection of hands-on demonstrations and training materials focused on modern
 - Built with Python and local Ollama LLM
 - Designed for macOS with Docker Desktop
 - Perfect for learning agentic AI fundamentals with a clean web UI
+
+### [tinyotel](https://github.com/stevelerner/tinyotel)
+- Minimal OpenTelemetry demonstration with metrics, traces, and structured logs
+- OpenTelemetry Collector with OTLP gRPC receiver and debug exporters
+- Python Flask app with auto-instrumentation and custom metrics
+- Structured JSON logs with trace/span correlation
+- Step-by-step scripts for exploring telemetry data
+- Built with Python, Docker Compose, and OpenTelemetry
+- Perfect for learning OpenTelemetry fundamentals with a clean, focused example
 
 ### [kafka](https://github.com/stevelerner/kafka)
 - Comprehensive Apache Kafka streaming platform demonstration
