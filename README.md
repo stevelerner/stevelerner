@@ -3,9 +3,9 @@
 A collection of hands-on demonstrations and training materials focused on modern cloud-native technologies, observability, distributed systems, and AI/ML engineering.
 
 **Quick Overview:**
+- [tinyolly](https://github.com/stevelerner/tinyolly): Observability backend for OpenTelemetry built from scratch using Flask, Redis, and Chart.js - no 3rd party observability tools used
 - [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training): Agentic AI with ReAct patterns, tool calling, and model training fundamentals
 - [agentic-ai](https://github.com/stevelerner/agentic-ai): Simple, practical agentic AI demonstration with web UI and observability
-- [tinyolly](https://github.com/stevelerner/tinyolly): Observability backend built from scratch using Flask, Redis, and Chart.js - no Grafana, Jaeger, or Prometheus
 - [kafka](https://github.com/stevelerner/kafka): Distributed streaming platform with producers, consumers, and real-time web UI
 - [openapi](https://github.com/stevelerner/openapi): Microservices platform with API Gateway and interactive OpenAPI documentation
 - [terraform](https://github.com/stevelerner/terraform): Infrastructure as Code demonstration with Docker orchestration
