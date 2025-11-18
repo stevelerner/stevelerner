@@ -36,6 +36,15 @@ A collection of hands-on demonstrations and training materials focused on modern
 
 ## Featured Projects
 
+### [tinyolly](https://github.com/stevelerner/tinyolly)
+- Observability backend built from scratch using Flask, Redis, and Chart.js
+- Receives, stores, and visualizes logs, metrics, and traces without and 3rd party observability tools
+- Interactive trace waterfall with time axis, clickable spans, and distributed tracing visualization
+- Real-time metric charts with histogram distributions (min/max/avg/count/buckets)
+- Log correlation with bidirectional navigation between logs and traces
+- Standard OpenTelemetry protocol - send OpenTelemetry collector standard export and TinyOlly will display its telemetry
+- Built and tested for Docker Desktop on macOS
+
 ### [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training)
 - Minimal demonstration of agentic AI and model training using Alice in Wonderland
 - Features ReAct pattern (Reason → Act → Observe), tool calling, and model switching
@@ -52,15 +61,6 @@ A collection of hands-on demonstrations and training materials focused on modern
 - Enhanced observability including token metrics and conversation history
 - Built with Python and local Ollama LLM
 - Designed for macOS with Docker Desktop
-
-### [tinyolly](https://github.com/stevelerner/tinyolly)
-- Observability backend built from scratch using Flask, Redis, and Chart.js
-- Receives, stores, and visualizes logs, metrics, and traces without Grafana, Jaeger, or Prometheus
-- Interactive trace waterfall with time axis, clickable spans, and distributed tracing visualization
-- Real-time metric charts with histogram distributions (min/max/avg/count/buckets)
-- Log correlation with bidirectional navigation between logs and traces
-- Standard OpenTelemetry protocol - send OpenTelemetry collector standard export and TinyOlly will display its telemetry
-- Built and tested for Docker Desktop on macOS
 
 ### [kafka](https://github.com/stevelerner/kafka)
 - Comprehensive Apache Kafka streaming platform demonstration
