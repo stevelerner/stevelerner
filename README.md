@@ -73,6 +73,7 @@ A collection of hands-on demonstrations and training materials focused on modern
 
 **Architecture:**
 - Standard OpenTelemetry protocol throughout
+- Add any container that emits OpenTelemetry and TinyOlly will display its telemetry
 - No vendor lock-in
 - Readable source code
 - Modifiable and extensible
