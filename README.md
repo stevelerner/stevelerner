@@ -5,7 +5,7 @@ A collection of hands-on demonstrations and training materials focused on modern
 **Quick Overview:**
 - [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training): Agentic AI with ReAct patterns, tool calling, and model training fundamentals
 - [agentic-ai](https://github.com/stevelerner/agentic-ai): Simple, practical agentic AI demonstration with web UI and observability
-- [tinyotel](https://github.com/stevelerner/tinyotel): TinyOlly - Learn observability by building it (~2,350 lines). Interactive waterfall, clickable spans, histogram visualization
+- [tinyolly](https://github.com/stevelerner/tinyolly): Learn observability by building it. No Grafana, Jaeger, or Prometheus - just Flask, Redis, and Chart.js
 - [kafka](https://github.com/stevelerner/kafka): Distributed streaming platform with producers, consumers, and real-time web UI
 - [openapi](https://github.com/stevelerner/openapi): Microservices platform with API Gateway and interactive OpenAPI documentation
 - [terraform](https://github.com/stevelerner/terraform): Infrastructure as Code demonstration with Docker orchestration
@@ -54,19 +54,29 @@ A collection of hands-on demonstrations and training materials focused on modern
 - Designed for macOS with Docker Desktop
 - Perfect for learning agentic AI fundamentals with a clean web UI
 
-### [tinyotel](https://github.com/stevelerner/tinyotel)
-**TinyOlly** - Minimal observability backend built from scratch (~2,350 lines) to learn how logs, metrics, and traces work internally.
+### [tinyolly](https://github.com/stevelerner/tinyolly)
+**A minimal observability backend built from scratch** to learn how logs, metrics, and traces work - without the complexity of Grafana, Jaeger, or Prometheus.
 
-- **Learn by building**: Understand observability systems by reading clear, commented code
-- **Interactive trace waterfall**: Time axis (0-100%), clickable spans showing full JSON details
-- **Advanced metrics**: Histogram visualization with min/max/avg and bucket distributions  
-- **Real-time charts**: Chart.js animations with 2-second refresh, rolling 30-point window
-- **Log correlation**: Bidirectional navigation between traces and logs
-- **Built from scratch**: No Grafana/Jaeger/Prometheus - just Flask, Redis, Chart.js
-- **Distributed tracing demo**: Two auto-instrumented microservices with OpenTelemetry
-- **Complete pipeline**: App → OTel Collector → OTLP Receiver → Redis → Web UI
+**Built on simple tools:**
+- Flask for the backend and API
+- Redis for in-memory storage with TTL
+- Chart.js for real-time visualizations
+- Pure HTML/JavaScript for the UI
 
-Perfect for learning how observability systems work internally with readable, educational code (~270 lines app, ~240 lines receiver, ~330 lines backend, ~1,270 lines UI).
+**Full-featured observability:**
+- **Interactive trace waterfall** with time axis and clickable spans
+- **Real-time metric charts** with histogram distributions (min/max/avg/count/buckets)
+- **Correlated logs** with bidirectional navigation to traces
+- **Distributed tracing** across two auto-instrumented microservices
+- **Complete OTLP pipeline** from apps through collector to storage
+
+**Freedom to learn:**
+- Read the source to understand how observability works
+- No vendor lock-in or complex dependencies
+- Modify and extend to fit your needs
+- Standard OpenTelemetry throughout
+
+Perfect for understanding observability internals without drowning in enterprise software complexity.
 
 ### [kafka](https://github.com/stevelerner/kafka)
 - Comprehensive Apache Kafka streaming platform demonstration
