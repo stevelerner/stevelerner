@@ -3,7 +3,7 @@
 A collection of hands-on demonstrations and training materials focused on modern cloud-native technologies, observability, distributed systems, and AI/ML engineering.
 
 **Quick Overview:**
-- [tinyolly](https://github.com/stevelerner/tinyolly): Observability backend for OpenTelemetry built from scratch using Flask, Redis, and Chart.js - no 3rd party observability tools used
+- [tinyolly](https://github.com/stevelerner/tinyolly): Observability backend for OpenTelemetry based on Flask, Redis, and Chart.js - no 3rd party observability tools used
 - [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training): Agentic AI with ReAct patterns, tool calling, and model training fundamentals
 - [agentic-ai](https://github.com/stevelerner/agentic-ai): Simple, practical agentic AI demonstration with web UI and observability
 - [kafka](https://github.com/stevelerner/kafka): Distributed streaming platform with producers, consumers, and real-time web UI
@@ -37,7 +37,7 @@ A collection of hands-on demonstrations and training materials focused on modern
 ## Featured Projects
 
 ### [tinyolly](https://github.com/stevelerner/tinyolly)
-- Observability backend for OpenTelemetry built from scratch using Flask, Redis, and Chart.js
+- Observability backend for OpenTelemetry based on Flask, Redis, and Chart.js
 - Receives, stores, and visualizes logs, metrics, and traces without and 3rd party observability tools
 - Interactive trace waterfall with time axis, clickable spans, and distributed tracing visualization
 - Real-time metric charts with histogram distributions (min/max/avg/count/buckets)
