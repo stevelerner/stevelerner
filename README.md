@@ -44,6 +44,7 @@ A collection of hands-on demonstrations and training materials focused on modern
 - Trains custom "mad-hatter" model via Ollama Modelfile
 - Built with Python, Flask, Docker, and Ollama
 - Perfect for learning both agentic AI patterns and model training fundamentals
+- Built and tested for Docker Desktop on macOS
 
 ### [agentic-ai](https://github.com/stevelerner/agentic-ai)
 - Simple, practical demonstration of core agentic AI principles
@@ -75,6 +76,7 @@ A collection of hands-on demonstrations and training materials focused on modern
 - No vendor lock-in
 - Readable source code
 - Modifiable and extensible
+- Built and tested for Docker Desktop on macOS
 
 ### [kafka](https://github.com/stevelerner/kafka)
 - Comprehensive Apache Kafka streaming platform demonstration
@@ -84,6 +86,7 @@ A collection of hands-on demonstrations and training materials focused on modern
 - Built with Python, Docker Compose, and Kafka 3.6
 - Interactive demos and comprehensive documentation
 - Perfect for learning distributed streaming and event-driven systems
+- Built and tested for Docker Desktop on macOS
 
 ### [nextjs-weather-chat for Vercel](https://github.com/stevelerner/nextjs-weather-chat)
 - Interactive Next.js 15 demonstration comparing rendering strategies (SSG, SSR, ISR, Edge)
@@ -99,6 +102,7 @@ A collection of hands-on demonstrations and training materials focused on modern
 - Idempotent infrastructure deployment
 - Automated deployment scripts and comprehensive Makefile
 - Perfect for learning Terraform fundamentals with practical examples
+- Built and tested for Docker Desktop on macOS
 
 ### [openapi](https://github.com/stevelerner/openapi)
 - Comprehensive OpenAPI demonstration platform
@@ -108,6 +112,7 @@ A collection of hands-on demonstrations and training materials focused on modern
 - Products, Users, and Orders APIs with unified API catalog
 - Health monitoring and modern web UI for browsing and testing endpoints
 - Perfect for learning API development best practices and microservices patterns
+- Built and tested for Docker Desktop on macOS
 
 ### [networkdemo](https://github.com/stevelerner/networkdemo)
 - Advanced Docker networking demonstration
@@ -115,6 +120,7 @@ A collection of hands-on demonstrations and training materials focused on modern
 - Interactive visualization webapp for exploring network topologies
 - Inter-VLAN routing, NAT, and firewall configurations
 - Built with Docker Compose, Python Flask, and comprehensive automation via Makefile
+- Built and tested for Docker Desktop on macOS
 
 ### [devops-technique](https://github.com/stevelerner/devops-technique)
 - Collection of battle-tested DevOps techniques, scripts, and best practices
