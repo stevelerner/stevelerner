@@ -1,6 +1,6 @@
 # Steve Lerner's GitHub: Cloud, AI, Observability, OpenAPI, DevOps, Network Engineering, Infra-As-Code
 
-A collection of hands-on demonstrations and training materials focused on modern cloud-native technologies, distributed systems, and AI/ML engineering.
+A collection of hands-on demonstrations and training materials focused on modern cloud-native technologies, observability, distributed systems, and AI/ML engineering.
 
 **Quick Overview:**
 - [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training): Agentic AI with ReAct patterns, tool calling, and model training fundamentals
@@ -43,7 +43,6 @@ A collection of hands-on demonstrations and training materials focused on modern
 - Token consumption tracking and character-specific fine-tuning
 - Trains custom "mad-hatter" model via Ollama Modelfile
 - Built with Python, Flask, Docker, and Ollama
-- Perfect for learning both agentic AI patterns and model training fundamentals
 - Built and tested for Docker Desktop on macOS
 
 ### [agentic-ai](https://github.com/stevelerner/agentic-ai)
@@ -53,30 +52,14 @@ A collection of hands-on demonstrations and training materials focused on modern
 - Enhanced observability including token metrics and conversation history
 - Built with Python and local Ollama LLM
 - Designed for macOS with Docker Desktop
-- Perfect for learning agentic AI fundamentals with a clean web UI
 
 ### [tinyolly](https://github.com/stevelerner/tinyolly)
-**Observability backend built from scratch** - receives, stores, and visualizes logs, metrics, and traces without Grafana, Jaeger, or Prometheus.
-
-**Stack:**
-- Flask (backend and API)
-- Redis (in-memory storage with TTL)
-- Chart.js (visualizations)
-- HTML/JavaScript (UI)
-
-**Features:**
-- Interactive trace waterfall with time axis and clickable spans
+- Observability backend built from scratch using Flask, Redis, and Chart.js
+- Receives, stores, and visualizes logs, metrics, and traces without Grafana, Jaeger, or Prometheus
+- Interactive trace waterfall with time axis, clickable spans, and distributed tracing visualization
 - Real-time metric charts with histogram distributions (min/max/avg/count/buckets)
-- Log correlation with bidirectional navigation to traces
-- Distributed tracing across two auto-instrumented microservices
-- OTLP pipeline: apps → collector → receiver → Redis → UI
-
-**Architecture:**
-- Standard OpenTelemetry protocol throughout
-- Add any container that emits OpenTelemetry and TinyOlly will display its telemetry
-- No vendor lock-in
-- Readable source code
-- Modifiable and extensible
+- Log correlation with bidirectional navigation between logs and traces
+- Standard OpenTelemetry protocol - send OpenTelemetry collector standard export and TinyOlly will display its telemetry
 - Built and tested for Docker Desktop on macOS
 
 ### [kafka](https://github.com/stevelerner/kafka)
@@ -86,7 +69,6 @@ A collection of hands-on demonstrations and training materials focused on modern
 - Consumer groups, partitioning, and message delivery guarantees
 - Built with Python, Docker Compose, and Kafka 3.6
 - Interactive demos and comprehensive documentation
-- Perfect for learning distributed streaming and event-driven systems
 - Built and tested for Docker Desktop on macOS
 
 ### [nextjs-weather-chat for Vercel](https://github.com/stevelerner/nextjs-weather-chat)
@@ -102,7 +84,6 @@ A collection of hands-on demonstrations and training materials focused on modern
 - Declarative configuration, dependency management, state management
 - Idempotent infrastructure deployment
 - Automated deployment scripts and comprehensive Makefile
-- Perfect for learning Terraform fundamentals with practical examples
 - Built and tested for Docker Desktop on macOS
 
 ### [openapi](https://github.com/stevelerner/openapi)
@@ -112,7 +93,6 @@ A collection of hands-on demonstrations and training materials focused on modern
 - RESTful API design, OpenAPI 3.0 specifications, service discovery
 - Products, Users, and Orders APIs with unified API catalog
 - Health monitoring and modern web UI for browsing and testing endpoints
-- Perfect for learning API development best practices and microservices patterns
 - Built and tested for Docker Desktop on macOS
 
 ### [networkdemo](https://github.com/stevelerner/networkdemo)
