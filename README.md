@@ -37,12 +37,12 @@ A collection of hands-on demonstrations and training materials focused on modern
 ## Featured Projects
 
 ### [tinyolly](https://github.com/stevelerner/tinyolly)
-- Observability backend built from scratch using Flask, Redis, and Chart.js
+- Observability backend for OpenTelemetry built from scratch using Flask, Redis, and Chart.js
 - Receives, stores, and visualizes logs, metrics, and traces without and 3rd party observability tools
 - Interactive trace waterfall with time axis, clickable spans, and distributed tracing visualization
 - Real-time metric charts with histogram distributions (min/max/avg/count/buckets)
 - Log correlation with bidirectional navigation between logs and traces
-- Standard OpenTelemetry protocol - send OpenTelemetry collector standard export and TinyOlly will display its telemetry
+- Uses standard OpenTelemetry protocol - send otel metrics/logs/traces and TinyOlly will visualize and correlate
 - Built and tested for Docker Desktop on macOS
 
 ### [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training)
