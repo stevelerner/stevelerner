@@ -5,7 +5,7 @@ A collection of hands-on demonstrations and training materials focused on modern
 **Quick Overview:**
 - [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training): Agentic AI with ReAct patterns, tool calling, and model training fundamentals
 - [agentic-ai](https://github.com/stevelerner/agentic-ai): Simple, practical agentic AI demonstration with web UI and observability
-- [tinyotel](https://github.com/stevelerner/tinyotel): Minimal OpenTelemetry demo with metrics, traces, and structured logs
+- [tinyotel](https://github.com/stevelerner/tinyotel): TinyOTel (OpenTelemetry demo) + TinyOlly (custom observability backend with histogram visualization)
 - [kafka](https://github.com/stevelerner/kafka): Distributed streaming platform with producers, consumers, and real-time web UI
 - [openapi](https://github.com/stevelerner/openapi): Microservices platform with API Gateway and interactive OpenAPI documentation
 - [terraform](https://github.com/stevelerner/terraform): Infrastructure as Code demonstration with Docker orchestration
@@ -55,13 +55,17 @@ A collection of hands-on demonstrations and training materials focused on modern
 - Perfect for learning agentic AI fundamentals with a clean web UI
 
 ### [tinyotel](https://github.com/stevelerner/tinyotel)
-- Minimal OpenTelemetry demonstration with metrics, traces, and structured logs
-- OpenTelemetry Collector with OTLP gRPC receiver and debug exporters
-- Python Flask app with auto-instrumentation and custom metrics
-- Structured JSON logs with trace/span correlation
-- Step-by-step scripts for exploring telemetry data
-- Built with Python, Docker Compose, and OpenTelemetry
-- Perfect for learning OpenTelemetry fundamentals with a clean, focused example
+- Two tiny implementations for learning observability: TinyOTel + TinyOlly
+- **TinyOTel**: Minimal OpenTelemetry demo with instrumented Flask app, collector, and OTLP pipeline
+- **TinyOlly**: Custom observability backend built from scratch (~1,840 lines)
+  - Receives and stores logs, metrics, and traces via OTLP
+  - Web UI with trace waterfall visualization, log correlation, and real-time metric charts
+  - Advanced histogram visualization with min/max/avg stats and bucket distribution bar charts
+  - Built without Grafana/Jaeger/Prometheus - just Flask, Redis, and Chart.js
+- Complete observability pipeline: App → OTel Collector → OTLP Receiver → Redis → Web UI
+- Structured JSON logs with trace/span correlation and bidirectional navigation
+- Built with Python, Docker Compose, OpenTelemetry, and Chart.js
+- Perfect for learning how observability systems work internally with readable, educational code
 
 ### [kafka](https://github.com/stevelerner/kafka)
 - Comprehensive Apache Kafka streaming platform demonstration
