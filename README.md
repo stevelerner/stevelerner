@@ -3,7 +3,7 @@
 A collection of hands-on demonstrations and training materials focused on modern cloud-native technologies, observability, distributed systems, and AI/ML engineering.
 
 **Quick Overview:**
-- [tinyolly](https://github.com/stevelerner/tinyolly): Observability platform for OpenTelemetry based on Flask, Redis, and Chart.js - no 3rd party observability tools used
+- [tinyolly](https://github.com/stevelerner/tinyolly): Lightweight observability platform for OpenTelemetry based on Flask, Redis, and Chart.js - no 3rd party tools used
 - [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training): Agentic AI with ReAct patterns, tool calling, and model training fundamentals
 - [agentic-ai](https://github.com/stevelerner/agentic-ai): Simple, practical agentic AI demonstration with web UI and observability
 - [kafka](https://github.com/stevelerner/kafka): Distributed streaming platform with producers, consumers, and real-time web UI
@@ -37,13 +37,15 @@ A collection of hands-on demonstrations and training materials focused on modern
 ## Featured Projects
 
 ### [tinyolly](https://github.com/stevelerner/tinyolly)
-- Observability backend for OpenTelemetry based on Flask, Redis, and Chart.js
-- Receives, stores, and visualizes logs, metrics, and traces without and 3rd party observability tools
+- Lightweight observability platform for OpenTelemetry based on Flask, Redis, and Chart.js
+- Receives, stores, and visualizes logs, metrics, and traces without and 3rd party tools
 - Interactive trace waterfall with time axis, clickable spans, and distributed tracing visualization
 - Real-time metric charts with histogram distributions (min/max/avg/count/buckets)
 - Log correlation with bidirectional navigation between logs and traces
+- **Log Search**: Filter logs by message content, service name, or trace/span IDs
+- **Log JSON View**: Click any log row to view, copy, or download the full JSON log entry
 - Uses standard OpenTelemetry protocol - send otel metrics/logs/traces and TinyOlly will visualize and correlate
-- Built and tested for Docker Desktop on macOS
+- Built and tested for Docker Desktop and Minikube on macOS
 
 ### [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training)
 - Minimal demonstration of agentic AI and model training using Alice in Wonderland
