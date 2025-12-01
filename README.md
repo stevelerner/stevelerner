@@ -5,7 +5,6 @@ A collection of hands-on demonstrations and training materials focused on modern
 **Quick Overview:**
 - [tinyolly](https://github.com/stevelerner/tinyolly): Lightweight observability platform for OpenTelemetry based on Flask, Redis, and Chart.js - no 3rd party tools used
 - [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training): Agentic AI with ReAct patterns, tool calling, and model training fundamentals
-- [agentic-ai](https://github.com/stevelerner/agentic-ai): Simple, practical agentic AI demonstration with web UI and observability
 - [kafka](https://github.com/stevelerner/kafka): Distributed streaming platform with producers, consumers, and real-time web UI
 - [openapi](https://github.com/stevelerner/openapi): Microservices platform with API Gateway and interactive OpenAPI documentation
 - [terraform](https://github.com/stevelerner/terraform): Infrastructure as Code demonstration with Docker orchestration
@@ -54,14 +53,6 @@ A collection of hands-on demonstrations and training materials focused on modern
 - **Educational UI**: Side-by-side comparison of Base Model vs. Trained Agent with real-time metrics
 - **Key Concepts**: ReAct pattern, Tool Calling, Low-Rank Adaptation (LoRA), Token Efficiency
 - Built with Python, Flask, MLX, and Ollama
-
-### [agentic-ai](https://github.com/stevelerner/agentic-ai)
-- Simple, practical demonstration of core agentic AI principles
-- Features ReAct pattern (Reason → Act → Observe)
-- Showcases tool use, function calling, and LLM integration
-- Enhanced observability including token metrics and conversation history
-- Built with Python and local Ollama LLM
-- Designed for macOS with Docker Desktop
 
 ### [kafka](https://github.com/stevelerner/kafka)
 - Comprehensive Apache Kafka streaming platform demonstration
