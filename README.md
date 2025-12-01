@@ -48,13 +48,12 @@ A collection of hands-on demonstrations and training materials focused on modern
 - Built and tested for Docker Desktop and Minikube on macOS
 
 ### [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training)
-- Minimal demonstration of agentic AI and model training using Alice in Wonderland
-- Features ReAct pattern (Reason → Act → Observe), tool calling, and model switching
-- Comprehensive model comparison with standard NLP evaluation metrics (ROUGE, BLEU, Jaccard)
-- Token consumption tracking and character-specific fine-tuning
-- Trains custom "mad-hatter" model via Ollama Modelfile
-- Built with Python, Flask, Docker, and Ollama
-- Built and tested for Docker Desktop on macOS
+- **Sherlock Holmes Agentic AI Demo**: Teaches Llama 3.1 to become a consulting detective
+- **True Fine-Tuning**: Uses Apple's **MLX** framework for efficient LoRA training on Mac GPUs
+- **Synthetic Data**: Generates "Golden Data" mysteries to teach tool use and persona
+- **Educational UI**: Side-by-side comparison of Base Model vs. Trained Agent with real-time metrics
+- **Key Concepts**: ReAct pattern, Tool Calling, Low-Rank Adaptation (LoRA), Token Efficiency
+- Built with Python, Flask, MLX, and Ollama
 
 ### [agentic-ai](https://github.com/stevelerner/agentic-ai)
 - Simple, practical demonstration of core agentic AI principles
