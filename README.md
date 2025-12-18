@@ -3,7 +3,7 @@
 A collection of hands-on demonstrations and training materials focused on modern cloud-native technologies, observability, distributed systems, and AI/ML engineering.
 
 **Quick Overview:**
-- [tinyolly](https://github.com/stevelerner/tinyolly): Lightweight observability platform for OpenTelemetry based on Flask, Redis, and Chart.js - no 3rd party tools used
+- [tinyolly](https://tinyolly.github.io/tinyolly/): The World's First Desktop Observability Platform! 100% OpenTelemetry Native
 - [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training): Agentic AI with ReAct patterns, tool calling, and model training fundamentals
 - [kafka](https://github.com/stevelerner/kafka): Distributed streaming platform with producers, consumers, and real-time web UI
 - [openapi](https://github.com/stevelerner/openapi): Microservices platform with API Gateway and interactive OpenAPI documentation
@@ -35,16 +35,12 @@ A collection of hands-on demonstrations and training materials focused on modern
 
 ## Featured Projects
 
-### [tinyolly](https://github.com/stevelerner/tinyolly)
-- Lightweight observability platform for OpenTelemetry based on Flask, Redis, and Chart.js
-- Receives, stores, and visualizes logs, metrics, and traces without and 3rd party tools
-- Interactive trace waterfall with time axis, clickable spans, and distributed tracing visualization
-- Real-time metric charts with histogram distributions (min/max/avg/count/buckets)
-- Log correlation with bidirectional navigation between logs and traces
-- **Log Search**: Filter logs by message content, service name, or trace/span IDs
-- **Log JSON View**: Click any log row to view, copy, or download the full JSON log entry
-- Uses standard OpenTelemetry protocol - send otel metrics/logs/traces and TinyOlly will visualize and correlate
-- Built and tested for Docker Desktop and Minikube on macOS
+### [tinyolly](https://tinyolly.github.io/tinyolly/)
+- **The World's First Desktop Observability Platform** - lightweight OpenTelemetry-native observability platform for local dev of OpenTelemetry logs/metrics/traces in your apps
+- **AI Agents Tab**: GenAI observability with LLM call tracking (prompts, responses, token usage, latency) via OpenTelemetry GenAI semantic conventions
+- **OpAMP Configuration**: Remote OpenTelemetry Collector configuration management via OpAMP protocol with real-time validation
+- **Cardinality Explorer & Protection**: Deep-dive into metric attributes with label analysis, raw series view, PromQL export, and visual warnings
+- Service catalog with RED metrics, interactive service dependency map, distributed trace waterfall, and real-time metrics - all with full OTLP support
 
 ### [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training)
 - **Sherlock Holmes Agentic AI Demo**: Teaches Llama 3.1 to become a consulting detective
