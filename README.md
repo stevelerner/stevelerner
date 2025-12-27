@@ -1,4 +1,4 @@
-# Steve Lerner's GitHub: Cloud, AI, Observability, OpenAPI, DevOps, Network Engineering, Infra-As-Code
+# Steve Lerner's GitHub: Cloud, AI, OpenTelmetry, Observability, OpenAPI, DevOps, Network Engineering, Infra-As-Code
 
 A collection of hands-on demonstrations and training materials focused on modern cloud-native technologies, observability, distributed systems, and AI/ML engineering.
 
