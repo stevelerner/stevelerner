@@ -4,12 +4,14 @@ A collection of hands-on demonstrations and training materials focused on modern
 
 **Quick Overview:**
 - [tinyolly](https://tinyolly.github.io/tinyolly/): The World's First Desktop Observability Platform! 100% OpenTelemetry Native
+- [edot](https://github.com/stevelerner/edot): Elastic Distro of OpenTelemetry demo with TinyOlly visualization
 - [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training): Agentic AI with ReAct patterns, tool calling, and model training fundamentals
+- [agentic-ai](https://github.com/stevelerner/agentic-ai): Simple agentic AI demo with ReAct loop and observability
 - [kafka](https://github.com/stevelerner/kafka): Distributed streaming platform with producers, consumers, and real-time web UI
 - [openapi](https://github.com/stevelerner/openapi): Microservices platform with API Gateway and interactive OpenAPI documentation
 - [terraform](https://github.com/stevelerner/terraform): Infrastructure as Code demonstration with Docker orchestration
 - [networkdemo](https://github.com/stevelerner/networkdemo): Advanced Docker networking with VLANs, routing, DNS, and interactive visualizations
-- [otelworkshop-original](https://github.com/stevelerner/otelworkshop-original): Comprehensive OpenTelemetry workshops and observability training (workshop author)
+- [otelworkshop-original](https://github.com/stevelerner/otelworkshop-original): OpenTelemetry workshops and observability training *(fork, authored by me)*
 
 <div align="center">
   
@@ -42,85 +44,71 @@ A collection of hands-on demonstrations and training materials focused on modern
 - **Cardinality Explorer & Protection**: Deep-dive into metric attributes with label analysis, raw series view, PromQL export, and visual warnings
 - Service catalog with RED metrics, interactive service dependency map, distributed trace waterfall, and real-time metrics - all with full OTLP support
 
+### [edot](https://github.com/stevelerner/edot)
+- Elastic Distribution of OpenTelemetry (EDOT) Collector demo, paired with TinyOlly for local visualization
+- Demo apps generate real traffic/telemetry through the full pipeline
+
 ### [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training)
 - **Sherlock Holmes Agentic AI Demo**: Teaches Llama 3.1 to become a consulting detective
-- **True Fine-Tuning**: Uses Apple's **MLX** framework for efficient LoRA training on Mac GPUs
-- **Synthetic Data**: Generates "Golden Data" mysteries to teach tool use and persona
-- **Educational UI**: Side-by-side comparison of Base Model vs. Trained Agent with real-time metrics
-- **Key Concepts**: ReAct pattern, Tool Calling, Low-Rank Adaptation (LoRA), Token Efficiency
+- **True Fine-Tuning**: Apple's **MLX** framework for LoRA training on Mac GPUs
+- **Key Concepts**: ReAct pattern, Tool Calling, LoRA, Token Efficiency
 - Built with Python, Flask, MLX, and Ollama
 
+### [agentic-ai](https://github.com/stevelerner/agentic-ai)
+- Simple agentic AI demo: ReAct (Reason → Act → Observe) loop with full observability
+- Per-step token/timing metrics, tool intelligence, and a clean web UI
+- Designed for macOS with Docker Desktop
+
 ### [kafka](https://github.com/stevelerner/kafka)
-- Comprehensive Apache Kafka streaming platform demonstration
-- Multiple producers, consumers, topics, and real-time web UI
-- Event-driven architecture, log aggregation, metrics collection
-- Consumer groups, partitioning, and message delivery guarantees
+- Apache Kafka streaming platform: multiple producers, consumers, topics, real-time web UI
+- Consumer groups, partitioning, message delivery guarantees
 - Built with Python, Docker Compose, and Kafka 3.6
-- Interactive demos and comprehensive documentation
-- Built and tested for Docker Desktop on macOS
 
 ### [nextjs-weather-chat for Vercel](https://github.com/stevelerner/nextjs-weather-chat)
-- Interactive Next.js 15 demonstration comparing rendering strategies (SSG, SSR, ISR, Edge)
-- Real-time weather data and OpenAI-powered chatbot
-- API design, performance optimization, and modern deployment patterns
-- Deployed on Vercel's edge network
+- Next.js 15 demo comparing rendering strategies (SSG, SSR, ISR, Edge)
+- Real-time weather data and OpenAI-powered chatbot, deployed on Vercel's edge network
 
 ### [terraform](https://github.com/stevelerner/terraform)
-- Infrastructure as Code demonstration using Terraform
-- Provisions Docker containers locally
-- Complete web application stack with Flask, PostgreSQL, and Nginx reverse proxy
-- Declarative configuration, dependency management, state management
-- Idempotent infrastructure deployment
-- Automated deployment scripts and comprehensive Makefile
-- Built and tested for Docker Desktop on macOS
+- Infrastructure as Code demo: Terraform-provisioned Flask + PostgreSQL + Nginx stack on Docker
+- Idempotent deployment via automated scripts and Makefile
 
 ### [openapi](https://github.com/stevelerner/openapi)
-- Comprehensive OpenAPI demonstration platform
-- Multiple microservices, API Gateway, and interactive documentation
+- Microservices platform with API Gateway and interactive OpenAPI 3.0 documentation
+- Products, Users, and Orders APIs with unified catalog and health monitoring
 - Built with FastAPI and Docker
-- RESTful API design, OpenAPI 3.0 specifications, service discovery
-- Products, Users, and Orders APIs with unified API catalog
-- Health monitoring and modern web UI for browsing and testing endpoints
-- Built and tested for Docker Desktop on macOS
 
 ### [networkdemo](https://github.com/stevelerner/networkdemo)
-- Advanced Docker networking demonstration
-- Multi-VLAN routing, DNS, DHCP, and HTTPS
-- Interactive visualization webapp for exploring network topologies
-- Inter-VLAN routing, NAT, and firewall configurations
-- Built with Docker Compose, Python Flask, and comprehensive automation via Makefile
-- Built and tested for Docker Desktop on macOS
+- Advanced Docker networking: multi-VLAN routing, DNS, DHCP, HTTPS, NAT/firewall
+- Interactive webapp for exploring network topologies
+- Built with Docker Compose, Python Flask, and Makefile automation
 
 ### [devops-technique](https://github.com/stevelerner/devops-technique)
-- Collection of battle-tested DevOps techniques, scripts, and best practices
-- Practical solutions to real-world infrastructure and operations challenges
+- Battle-tested DevOps techniques, scripts, and best practices for real-world infra/ops
 
-### [opentelemetry](https://github.com/stevelerner/opentelemetry)
-- Distributed tracing and observability implementations using OpenTelemetry
-- Examples, patterns, and learning resources
-- Instrumenting applications and infrastructure
+### [retropie](https://github.com/stevelerner/retropie)
+- RetroPie setup for an X-Arcade Tankstick Max on Raspberry Pi (bookworm)
+- Documents hardware fixes for input drivers, XRDP, and audio routing
 
-### [mobiledemoapps](https://github.com/stevelerner/mobiledemoapps)
-- Mobile application demos built with Kotlin
-- Exploring mobile development patterns and integrations
+### [tinyolly-redis-archive](https://github.com/stevelerner/tinyolly-redis-archive)
+- Archived Redis-backed version of TinyOlly, superseded by the current build
 
 ## Workshop & Training
 
 I've authored comprehensive observability training workshops used by engineering teams:
 
-### [otelworkshop-original](https://github.com/stevelerner/otelworkshop-original)
-- **Author of OpenTelemetry workshops** originally created at SignalFx
-- Comprehensive hands-on labs covering instrumentation, exporters, collectors
-- Auto-instrumentation, manual tracing, metrics, and collector configuration
-- Observability best practices
+### [otelworkshop-original](https://github.com/stevelerner/otelworkshop-original) *(fork, authored by me)*
+- OpenTelemetry workshops originally created at SignalFx
+- Hands-on labs: instrumentation, exporters, collectors, tracing, metrics
 
-### [cxworkshops](https://github.com/stevelerner/cxworkshops)
-- **Author of Coralogix observability workshops**
-- Training materials and hands-on exercises
-- End-to-end observability including log aggregation, metric collection, APM, and alert configuration
-- Distributed tracing integrations
+### [cxworkshops](https://github.com/stevelerner/cxworkshops) *(fork, authored by me)*
+- Coralogix observability workshops: log aggregation, metrics, APM, alerting, tracing
 
-These workshops help teams transition to modern observability practices with distributed tracing and telemetry standards.
+These workshops help teams transition to modern observability practices.
+
+## Forks I Maintain
+
+- [Xarcade2Jstick](https://github.com/stevelerner/Xarcade2Jstick) *(fork, authored by me)*: Patched user-space driver mapping the X-Arcade Tankstick to two gamepads
+- [bitdrift-public](https://github.com/stevelerner/bitdrift-public) *(fork, authored by me)*: bitdrift Solution Architects public repository
 
 ## Connect
 
