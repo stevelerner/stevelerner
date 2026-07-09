@@ -3,6 +3,7 @@
 A collection of hands-on demonstrations and training materials focused on modern cloud-native technologies, observability, distributed systems, and AI/ML engineering.
 
 **Quick Overview:**
+- [inferencerouter](https://github.com/stevelerner/inferencerouter): OpenAI-compatible gateway that auto-routes requests between on-prem models and Claude based on data sensitivity and task complexity
 - [tinyolly](https://tinyolly.github.io/tinyolly/): The World's First Desktop Observability Platform! 100% OpenTelemetry Native
 - [edot](https://github.com/stevelerner/edot): Elastic Distro of OpenTelemetry demo with TinyOlly visualization
 - [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training): Agentic AI with ReAct patterns, tool calling, and model training fundamentals
@@ -36,6 +37,12 @@ A collection of hands-on demonstrations and training materials focused on modern
 </div>
 
 ## Featured Projects
+
+### [inferencerouter](https://github.com/stevelerner/inferencerouter)
+- A ~200-line OpenAI-compatible gateway that auto-routes each request between an on-prem model and Claude on two deterministic axes: data sensitivity and task complexity
+- Sensitive data and simple tasks stay local; non-sensitive, complex queries route to Claude
+- Live operations console, editor integrations (Zed, VS Code), and safe fallback to local inference if the cloud API is unavailable
+- Built with Python, Ollama (on-prem), and the Anthropic Claude API
 
 ### [tinyolly](https://tinyolly.github.io/tinyolly/)
 - **The World's First Desktop Observability Platform** - lightweight OpenTelemetry-native observability platform for local dev of OpenTelemetry logs/metrics/traces in your apps
