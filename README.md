@@ -1,6 +1,6 @@
 # Steve Lerner
 
-Cloud infrastructure, AI/ML, observability, and DevOps hands-on projects & training.
+Cloud infrastructure, AI/ML, observability, DevOps, training/workshops and cool tech projects hands-on projects & training.
 
 
 ## Projects
@@ -8,7 +8,6 @@ Cloud infrastructure, AI/ML, observability, and DevOps hands-on projects & train
 **AI & Inference**
 - [inferencerouter](https://github.com/stevelerner/inferencerouter) — OpenAI-compatible router that auto-routes between local models and Claude based on data sensitivity and task complexity
 - [agentic-ai-training](https://github.com/stevelerner/agentic-ai-training) — ReAct agent with LoRA fine-tuning on Mac GPUs (MLX)
-- [spotifyer](https://github.com/stevelerner/spotifyer) — Python app to manage Spotify playlists
 - [agentic-ai](https://github.com/stevelerner/agentic-ai) — Simple ReAct demo with full observability
 
 **Observability & Monitoring**
@@ -26,6 +25,10 @@ Cloud infrastructure, AI/ML, observability, and DevOps hands-on projects & train
 **Other**
 - [nextjs-weather-chat](https://github.com/stevelerner/nextjs-weather-chat) — Next.js 15 rendering strategies (SSG/SSR/ISR/Edge) + weather + ChatGPT
 - [retropie](https://github.com/stevelerner/retropie) — RetroPie on Raspberry Pi (X-Arcade Tankstick setup)
+
+**Cool Tech**
+- [spotifyer](https://github.com/stevelerner/spotifyer) — Python app to manage Spotify playlists
+- [Xarcade2Jstick](https://github.com/stevelerner/Xarcade2Jstick) — User-space driver mapping X-Arcade Tankstick to two game controllers (for RetroPie)
 
 ## Workshop & Training
 
