@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="942" viewBox="0 0 980 942">
+<defs><radialGradient id="haze" cx="50%" cy="12%" r="95%"><stop offset="0%" stop-color="#3a2a1e"/><stop offset="55%" stop-color="#171210"/><stop offset="100%" stop-color="#0b0908"/></radialGradient></defs>
+<rect width="980" height="942" fill="url(#haze)"/>
+<text x="24" y="46" font-family="Menlo,monospace" font-size="24" fill="#EAE4D8">DARK FUTURE SPECTRUM</text>
+<text x="24" y="72" font-family="Menlo,monospace" font-size="13" fill="#8F949B">roygbiv + black / white / silver / gold  —  hazed, dimmed, atomic-orange &amp; teal</text>
+<rect x="20" y="96" width="454" height="108" rx="0" fill="#D23050" stroke="#2a211b" stroke-width="1.5"/>
+<text x="38" y="126" font-family="Menlo,monospace" font-size="17" fill="#EAE4D8">Red</text>
+<text x="38" y="148" font-family="Menlo,monospace" font-size="13" fill="#EAE4D8" opacity="0.85">#D23050</text>
+<text x="38" y="170" font-family="Menlo,monospace" font-size="11" fill="#EAE4D8" opacity="0.72">neon-sign scarlet through haze</text>
+<rect x="490" y="96" width="454" height="108" rx="0" fill="#E77D33" stroke="#2a211b" stroke-width="1.5"/>
+<text x="508" y="126" font-family="Menlo,monospace" font-size="17" fill="#100D0B">Orange</text>
+<text x="508" y="148" font-family="Menlo,monospace" font-size="13" fill="#100D0B" opacity="0.85">#E77D33</text>
+<text x="508" y="170" font-family="Menlo,monospace" font-size="11" fill="#100D0B" opacity="0.72">atomic / sodium-vapor haze</text>
+<rect x="20" y="228" width="454" height="108" rx="0" fill="#E4B740" stroke="#2a211b" stroke-width="1.5"/>
+<text x="38" y="258" font-family="Menlo,monospace" font-size="17" fill="#100D0B">Yellow</text>
+<text x="38" y="280" font-family="Menlo,monospace" font-size="13" fill="#100D0B" opacity="0.85">#E4B740</text>
+<text x="38" y="302" font-family="Menlo,monospace" font-size="11" fill="#100D0B" opacity="0.72">amber street-lamp glow</text>
+<rect x="490" y="228" width="454" height="108" rx="0" fill="#3E8C74" stroke="#2a211b" stroke-width="1.5"/>
+<text x="508" y="258" font-family="Menlo,monospace" font-size="17" fill="#100D0B">Green</text>
+<text x="508" y="280" font-family="Menlo,monospace" font-size="13" fill="#100D0B" opacity="0.85">#3E8C74</text>
+<text x="508" y="302" font-family="Menlo,monospace" font-size="11" fill="#100D0B" opacity="0.72">murky toxic jade, fogged</text>
+<rect x="20" y="360" width="454" height="108" rx="0" fill="#43A4C6" stroke="#2a211b" stroke-width="1.5"/>
+<text x="38" y="390" font-family="Menlo,monospace" font-size="17" fill="#100D0B">Blue</text>
+<text x="38" y="412" font-family="Menlo,monospace" font-size="13" fill="#100D0B" opacity="0.85">#43A4C6</text>
+<text x="38" y="434" font-family="Menlo,monospace" font-size="11" fill="#100D0B" opacity="0.72">hazy teal-cyan signage</text>
+<rect x="490" y="360" width="454" height="108" rx="0" fill="#3A3E82" stroke="#2a211b" stroke-width="1.5"/>
+<text x="508" y="390" font-family="Menlo,monospace" font-size="17" fill="#EAE4D8">Indigo</text>
+<text x="508" y="412" font-family="Menlo,monospace" font-size="13" fill="#EAE4D8" opacity="0.85">#3A3E82</text>
+<text x="508" y="434" font-family="Menlo,monospace" font-size="11" fill="#EAE4D8" opacity="0.72">smoky night blue</text>
+<rect x="20" y="492" width="454" height="108" rx="0" fill="#A64FBE" stroke="#2a211b" stroke-width="1.5"/>
+<text x="38" y="522" font-family="Menlo,monospace" font-size="17" fill="#EAE4D8">Violet</text>
+<text x="38" y="544" font-family="Menlo,monospace" font-size="13" fill="#EAE4D8" opacity="0.85">#A64FBE</text>
+<text x="38" y="566" font-family="Menlo,monospace" font-size="11" fill="#EAE4D8" opacity="0.72">hologram magenta-violet</text>
+<rect x="490" y="492" width="454" height="108" rx="0" fill="#100D0B" stroke="#2a211b" stroke-width="1.5"/>
+<text x="508" y="522" font-family="Menlo,monospace" font-size="17" fill="#EAE4D8">Black</text>
+<text x="508" y="544" font-family="Menlo,monospace" font-size="13" fill="#EAE4D8" opacity="0.85">#100D0B</text>
+<text x="508" y="566" font-family="Menlo,monospace" font-size="11" fill="#EAE4D8" opacity="0.72">warm smog near-black (bg)</text>
+<rect x="20" y="624" width="454" height="108" rx="0" fill="#EAE4D8" stroke="#2a211b" stroke-width="1.5"/>
+<text x="38" y="654" font-family="Menlo,monospace" font-size="17" fill="#100D0B">White</text>
+<text x="38" y="676" font-family="Menlo,monospace" font-size="13" fill="#100D0B" opacity="0.85">#EAE4D8</text>
+<text x="38" y="698" font-family="Menlo,monospace" font-size="11" fill="#100D0B" opacity="0.72">dirty haze white</text>
+<rect x="490" y="624" width="454" height="108" rx="0" fill="#8F949B" stroke="#2a211b" stroke-width="1.5"/>
+<text x="508" y="654" font-family="Menlo,monospace" font-size="17" fill="#100D0B">Silver</text>
+<text x="508" y="676" font-family="Menlo,monospace" font-size="13" fill="#100D0B" opacity="0.85">#8F949B</text>
+<text x="508" y="698" font-family="Menlo,monospace" font-size="11" fill="#100D0B" opacity="0.72">tarnished gunmetal chrome</text>
+<rect x="20" y="756" width="454" height="108" rx="0" fill="#C4993F" stroke="#2a211b" stroke-width="1.5"/>
+<text x="38" y="786" font-family="Menlo,monospace" font-size="17" fill="#100D0B">Gold</text>
+<text x="38" y="808" font-family="Menlo,monospace" font-size="13" fill="#100D0B" opacity="0.85">#C4993F</text>
+<text x="38" y="830" font-family="Menlo,monospace" font-size="11" fill="#100D0B" opacity="0.72">dim tarnished brass</text>
+<rect x="20" y="896" width="940" height="34" rx="0" fill="#EAE4D8"/>
+<rect x="28.0" y="902" width="78.0" height="22" rx="0" fill="#D23050" stroke="#100D0B" stroke-width="1"/>
+<rect x="112.0" y="902" width="78.0" height="22" rx="0" fill="#E77D33" stroke="#100D0B" stroke-width="1"/>
+<rect x="196.0" y="902" width="78.0" height="22" rx="0" fill="#E4B740" stroke="#100D0B" stroke-width="1"/>
+<rect x="280.0" y="902" width="78.0" height="22" rx="0" fill="#3E8C74" stroke="#100D0B" stroke-width="1"/>
+<rect x="364.0" y="902" width="78.0" height="22" rx="0" fill="#43A4C6" stroke="#100D0B" stroke-width="1"/>
+<rect x="448.0" y="902" width="78.0" height="22" rx="0" fill="#3A3E82" stroke="#100D0B" stroke-width="1"/>
+<rect x="532.0" y="902" width="78.0" height="22" rx="0" fill="#A64FBE" stroke="#100D0B" stroke-width="1"/>
+<rect x="616.0" y="902" width="78.0" height="22" rx="0" fill="#100D0B" stroke="#100D0B" stroke-width="1"/>
+<rect x="700.0" y="902" width="78.0" height="22" rx="0" fill="#EAE4D8" stroke="#100D0B" stroke-width="1"/>
+<rect x="784.0" y="902" width="78.0" height="22" rx="0" fill="#8F949B" stroke="#100D0B" stroke-width="1"/>
+<rect x="868.0" y="902" width="78.0" height="22" rx="0" fill="#C4993F" stroke="#100D0B" stroke-width="1"/>
+</svg>

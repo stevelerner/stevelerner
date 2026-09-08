@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#100D0B" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="miter" role="img" aria-label="kafka logo">
+  <rect width="48" height="48" fill="#8F949B"/>
+  <path d="M3 9V3H9 M39 3H45V9 M3 39V45H9 M45 39V45H39" stroke="#100D0B" stroke-width="1" opacity="0.55"/>
+  <rect x="11" y="12" width="26" height="6"/>
+  <rect x="11" y="21" width="26" height="6"/>
+  <rect x="11" y="30" width="26" height="6"/>
+  <path d="M18 12V18 M25 12V18 M32 12V18 M18 21V27 M25 21V27 M32 21V27 M18 30V36 M25 30V36 M32 30V36" stroke-width="0.8"/>
+  <path d="M3 15H11" stroke="#C4993F" stroke-width="1.6"/>
+  <path d="M8 12.5L11 15L8 17.5" stroke="#C4993F" stroke-width="1.6"/>
+  <path d="M37 15H45 M37 24H45" stroke="#3E8C74" stroke-width="1.6"/>
+  <path d="M42 12.5L45 15L42 17.5 M42 21.5L45 24L42 26.5" stroke="#3E8C74" stroke-width="1.6"/>
+</svg>

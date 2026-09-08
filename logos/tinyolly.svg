@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#EAE4D8" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="miter" role="img" aria-label="tinyolly logo">
+  <rect width="48" height="48" fill="#3E8C74"/>
+  <path d="M3 9V3H9 M39 3H45V9 M3 39V45H9 M45 39V45H39" stroke-width="1" opacity="0.6"/>
+  <rect x="8" y="11" width="32" height="26" stroke-width="1.6"/>
+  <path d="M11 27H15L18 19L21 31L25 15L29 25L32 21H36" stroke-width="1.4"/>
+  <path d="M11 33H16L20 30L25 34L30 31L35 33H37" stroke="#C4993F" stroke-width="1.4"/>
+  <rect x="23.5" y="13.5" width="3" height="3" fill="#C4993F" stroke="none"/>
+  <path d="M15 37V39 M23 37V39 M31 37V39" stroke-width="0.8"/>
+</svg>

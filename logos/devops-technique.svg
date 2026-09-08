@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="#100D0B" stroke-width="1.4" stroke-linecap="butt" stroke-linejoin="miter" role="img" aria-label="devops-technique logo">
+  <rect width="48" height="48" fill="#E77D33"/>
+  <path d="M3 9V3H9 M39 3H45V9 M3 39V45H9 M45 39V45H39" stroke="#100D0B" stroke-width="1" opacity="0.55"/>
+  <rect x="9" y="16" width="30" height="16" stroke-width="1.6"/>
+  <path d="M22 16L25 13L28 16 M26 32L23 35L20 32" stroke-width="1.4"/>
+  <path d="M24 19L29 24L24 29L19 24Z"/>
+  <path d="M24 15V13 M24 35V33 M15 24H13 M35 24H33"/>
+  <rect x="22.5" y="22.5" width="3" height="3" fill="#C4993F" stroke="none"/>
+</svg>
