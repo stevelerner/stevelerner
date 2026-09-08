@@ -1,7 +1,6 @@
 # Steve Lerner
 
-Cloud infrastructure, AI/ML, observability, DevOps, training/workshops and cool tech projects hands-on projects & training.
-
+My builds for AI, observability, DevOps, cloud, training/workshops and cool tech projects
 
 ## Projects
 
