@@ -77,6 +77,10 @@ My builds for AI, observability, DevOps, cloud, training/workshops and cool tech
 
 <table>
 <tr>
+<td width="64" align="center"><a href="https://github.com/stevelerner/dot.fx"><img src="logos/dot.fx.svg" width="48" height="48" alt=""></a></td>
+<td><a href="https://github.com/stevelerner/dot.fx"><b>dot.fx</b></a> — Apple Silicon GPU-accelerated retro CRT/VHS/dot effects suite for FFmpeg, coded end-to-end by a local model</td>
+</tr>
+<tr>
 <td width="64" align="center"><a href="https://github.com/stevelerner/spotifyer"><img src="logos/spotifyer.svg" width="48" height="48" alt=""></a></td>
 <td><a href="https://github.com/stevelerner/spotifyer"><b>spotifyer</b></a> — Python app to manage Spotify playlists</td>
 </tr>
