@@ -4,6 +4,15 @@ My builds for AI, observability, DevOps, cloud, training/workshops and cool tech
 
 ## Projects
 
+### Featured: Observability
+
+<table>
+<tr>
+<td width="64" align="center"><a href="https://tinyolly.github.io/tinyolly/"><img src="logos/tinyolly.svg" width="48" height="48" alt=""></a></td>
+<td><a href="https://tinyolly.github.io/tinyolly/"><b>tinyolly</b></a> — Lightweight OpenTelemetry backend for traces, logs, metrics and a service map, with LLM observability and remote OpAMP config. Runs on Colima/kind, with a one-command OTel demo</td>
+</tr>
+</table>
+
 ### AI & Inference
 
 <table>
@@ -18,15 +27,6 @@ My builds for AI, observability, DevOps, cloud, training/workshops and cool tech
 <tr>
 <td width="64" align="center"><a href="https://github.com/stevelerner/agentic-ai"><img src="logos/agentic-ai.svg" width="48" height="48" alt=""></a></td>
 <td><a href="https://github.com/stevelerner/agentic-ai"><b>agentic-ai</b></a> — Simple ReAct demo with full observability</td>
-</tr>
-</table>
-
-### Observability & Monitoring
-
-<table>
-<tr>
-<td width="64" align="center"><a href="https://tinyolly.github.io/tinyolly/"><img src="logos/tinyolly.svg" width="48" height="48" alt=""></a></td>
-<td><a href="https://tinyolly.github.io/tinyolly/"><b>tinyolly</b></a> — Desktop OpenTelemetry platform with LLM observability and remote OpAMP config</td>
 </tr>
 </table>
 
