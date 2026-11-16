@@ -22,7 +22,7 @@ My builds for AI, observability, DevOps, cloud, training/workshops and cool tech
 <table>
 <tr>
 <td width="64" align="center"><a href="https://github.com/stevelerner/inferencerouter"><img src="logos/inferencerouter.svg" width="48" height="48" alt=""></a></td>
-<td><a href="https://github.com/stevelerner/inferencerouter"><b>inferencerouter</b></a> — OpenAI-compatible router that auto-routes between local models and Claude based on data sensitivity and task complexity</td>
+<td><a href="https://github.com/stevelerner/inferencerouter"><b>inferencerouter</b></a> — Two ways to send the easy work to a cheap local model and keep Claude for what needs it: a <b>gateway</b> (OpenAI-compatible proxy that routes each request local or cloud by rule, with privacy rules for secrets and private code) and a <b>delegate</b> (an MCP tool that lets Claude Code hand bulk jobs and coding tasks to a local model, with a savings log and report). Run either or both</td>
 </tr>
 <tr>
 <td width="64" align="center"><a href="https://github.com/stevelerner/agentic-ai-training"><img src="logos/agentic-ai-training.svg" width="48" height="48" alt=""></a></td>
