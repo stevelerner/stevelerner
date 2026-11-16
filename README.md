@@ -11,6 +11,10 @@ My builds for AI, observability, DevOps, cloud, training/workshops and cool tech
 <td width="64" align="center"><a href="https://tinyolly.github.io/tinyolly/"><img src="logos/tinyolly.svg" width="48" height="48" alt=""></a></td>
 <td><a href="https://tinyolly.github.io/tinyolly/"><b>tinyolly</b></a> — Lightweight OpenTelemetry backend for traces, logs, metrics and a service map, with LLM observability and remote OpAMP config. Runs on Colima/kind, with a one-command OTel demo</td>
 </tr>
+<tr>
+<td width="64" align="center"><a href="https://github.com/stevelerner/istio-ambient-demo"><img src="logos/istio-ambient-demo.svg" width="48" height="48" alt=""></a></td>
+<td><a href="https://github.com/stevelerner/istio-ambient-demo"><b>istio-ambient-demo</b></a> — Istio's sidecar-less ambient mesh on a Mac, drawn live in TinyOlly: mTLS, denied calls, waypoint L7, canary, fault injection, and an AI assistant that investigates through MCP</td>
+</tr>
 </table>
 
 ### AI & Inference
